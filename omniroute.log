@@ -15,16 +15,9 @@ nohup: ignoring input
 
 [33m  ⚠  SECURITY: listening on 0.0.0.0 with NO API-key requirement — the inference plane (/v1/*) is reachable by ANY device that can route to this host, and requests are billed to your configured providers. This local-first default is intentional, but on an untrusted network either set REQUIRE_API_KEY=true or bind loopback with OMNIROUTE_SERVER_HOST=127.0.0.1.[0m
 
-  [2m⏳ Starting server...[0m
 
+[31m✖ Port 20128 is already in use by an unknown process.[0m
+  Another OmniRoute is most likely already serving there, so open http://localhost:20128 before starting a second one.
+  To replace it:    [36momniroute stop[0m, then start again
+  To run alongside: [36momniroute serve --port <other-port>[0m
 
-  [32m✔ OmniRoute is running![0m [2m(started in 25.7s)[0m
-
-  [1m  Dashboard:[0m  http://localhost:20128
-  [1m  API Base:[0m   http://localhost:20128/v1
-
-  [2m  Point your CLI tool (Cursor, Cline, Codex) to:[0m
-  [33m  http://localhost:20128/v1[0m
-
-  [2m  Press Ctrl+C to stop[0m
-  
