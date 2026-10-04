@@ -1,0 +1,30 @@
+nohup: ignoring input
+  [2m📋 Loaded env from /data/data/com.termux/files/home/.omniroute/.env[0m
+  [2m📋 Loaded env from /data/data/com.termux/files/usr/lib/node_modules/omniroute/.env[0m
+  [33m⚠ STORAGE_ENCRYPTION_KEY in /data/data/com.termux/files/usr/lib/node_modules/omniroute/.env is ignored, /data/data/com.termux/files/home/.omniroute/.env set it first[0m
+  [33m⚠ /data/data/com.termux/files/usr/lib/node_modules/omniroute/.env lives inside the installed package: updating OmniRoute replaces it. Move the values you set to /data/data/com.termux/files/home/.omniroute/.env, which updates leave alone.[0m
+
+[36m   ____                  _ ____              _
+   / __ \                (_) __ \            | |
+  | |  | |_ __ ___  _ __ _| |__) |___  _   _| |_ ___
+  | |  | | '_ ` _ \| '_ \ |  _  // _ \| | | | __/ _ \
+  | |__| | | | | | | | | | | | \ \ (_) | |_| | ||  __/
+   \____/|_| |_| |_|_| |_|_|_|  \_\___/ \__,_|\__\___|
+[0m
+[2m  v3.8.51[0m
+
+[33m  ⚠  SECURITY: listening on 0.0.0.0 with NO API-key requirement — the inference plane (/v1/*) is reachable by ANY device that can route to this host, and requests are billed to your configured providers. This local-first default is intentional, but on an untrusted network either set REQUIRE_API_KEY=true or bind loopback with OMNIROUTE_SERVER_HOST=127.0.0.1.[0m
+
+  [2m⏳ Starting server...[0m
+
+
+  [32m✔ OmniRoute is running![0m [2m(started in 25.7s)[0m
+
+  [1m  Dashboard:[0m  http://localhost:20128
+  [1m  API Base:[0m   http://localhost:20128/v1
+
+  [2m  Point your CLI tool (Cursor, Cline, Codex) to:[0m
+  [33m  http://localhost:20128/v1[0m
+
+  [2m  Press Ctrl+C to stop[0m
+  

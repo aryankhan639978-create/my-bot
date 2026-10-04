@@ -8,7 +8,7 @@ import socketserver
 from bs4 import BeautifulSoup
 
 BOT_TOKEN = "8688229218:AAHWXB03KtuMEsn1TRZowSWejAe8EEPS9PQ"
-OMNIROUTE_URL = "https://photographers-union-single-steps.trycloudflare.com/v1/chat/completions"
+OMNIROUTE_URL = "https://नया-URL.trycloudflare.com/v1/chat/completions"
 OMNIROUTE_KEY = "sk-5f238e76072d7926-eb6545-bf561a7c"
 
 MODELS = {
